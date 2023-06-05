@@ -1,0 +1,66 @@
+.banner {
+  background-image: url(../img/bg.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.banner__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.banner__top {
+  border: 4px solid #ffffff;
+  padding: 93px 68px;
+  margin-bottom: 80px;
+}
+.banner__h {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  text-align: center;
+  color: #ffffff;
+}
+.banner__p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 7px;
+}
+.banner__text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  max-width: 730px;
+}
+
+@media screen and (max-width:320px) {
+  .banner__text{
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width:375px) {
+  .banner__text{
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width:425px) {
+  .banner__text{
+    padding: 0 10px;
+  }
+}

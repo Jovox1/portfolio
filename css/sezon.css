@@ -1,0 +1,151 @@
+.sezon {
+  display: flex;
+}
+.sezon__left {
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  flex-direction: column;
+  padding: 93px 80px;
+}
+.sez-hr {
+  min-width: 120px;
+}
+.sezon__left-h {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 50px;
+}
+.sezon__left-wrap {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.sezon__left-img {
+  background: #191b1c;
+  padding: 55px 22px;
+  margin-bottom: 25px;
+}
+.sezon__left__card-h {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.sezon__left__card-p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #d0d0d0;
+}
+.sezon__right {
+  background-image: url(../img/sezon__right-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  object-fit: cover;
+}
+.sezon__right-wrap {
+  display: flex;
+  flex-direction: column;
+  padding-top: 484px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sezon__right-h {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.sezon-hr {
+  width: 120px;
+  margin-bottom: 30px;
+}
+.sezon__right-a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 12px 28px;
+}
+@media screen and (max-width: 320px) {
+  .sezon,
+  .sezon__left-wrap {
+    flex-direction: column;
+  }
+  .sezon__left,
+  .sezon__right {
+    width: 100%;
+  }
+  .sezon__left {
+    padding: 50px 0;
+  }
+  .sezon__right-wrap {
+    padding-bottom: 50px;
+    padding-top: 380px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .sezon,.sezon__left-wrap{
+    flex-direction: column;
+  }
+  .sezon__left,.sezon__right{
+    width: 100%;
+  }
+  .sezon__right-wrap {
+    padding-bottom: 50px;
+    padding-top: 380px;
+  }
+  .sezon__right-h{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .sezon,.sezon__left-wrap{
+    flex-direction: column;
+  }
+  .sezon__left,.sezon__right{
+    width: 100%;
+  }
+  .sezon__right-wrap {
+    padding-bottom: 50px;
+    padding-top: 380px;
+  }
+  .sezon__right-h{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sezon,.sezon__left-wrap{
+    flex-direction: column;
+  }
+  .sezon__left,.sezon__right{
+    width: 100%;
+  }
+  .sezon__right-wrap {
+    padding-bottom: 50px;
+    padding-top: 380px;
+  }
+  .sezon__right-h{
+    font-size: 30px;
+  }
+}
